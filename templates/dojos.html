@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dojos - Create New</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style_lp.css')}}">
+        
+    </head>
+    <body>
+        <h2>Create a Dojo</h2>
+        <img src="{{ url_for('static', filename='img/mikey.png') }}">
+        <form action='' method='post'>
+            <label for='name'>Dojo Name:</label>
+            <input type='text' id='name' name='name'><br>
+            <label for='capacity'>Capacity:</label>
+            <input type='text' id='capacity' name='email'><br>
+            <label for='email'>Email:</label>
+            <input type='text' id='email' name='email'><br>
+            <input type='submit' value='Submit'>
+        </form>
+    </body>
+</html>

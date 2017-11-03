@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+h2 {
+    color: red;
+}
+
+img {
+    height: 350px;
+}
+
+input {
+    display: inline-block;
+    margin: 10px 5px;
+}
+label {
+    display: inline-block;
+    margin: 10px 0px;
+}
